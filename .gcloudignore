@@ -1,0 +1,12 @@
+# Files NOT uploaded by `gcloud run deploy --source .` (keeps secrets out of Cloud Build).
+.gcloudignore
+.env
+.env.*
+!.env.example
+.venv/
+output/
+logs/
+tests/
+__pycache__/
+*.pyc
+.git/

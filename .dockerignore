@@ -1,0 +1,11 @@
+# Never ship secrets or local artifacts in the image.
+.env
+.env.*
+!.env.example
+.venv/
+output/
+logs/
+tests/
+__pycache__/
+*.pyc
+.git/
